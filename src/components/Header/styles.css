@@ -19,7 +19,8 @@
 
 .headerLink {
   margin: 10px 25px;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   display: block;
   flex-grow: 0;
   flex-shrink: 1;
@@ -27,10 +28,21 @@
   align-self: auto;
   order: 0;
   text-decoration: none;
-  color: #fafafa;
+  color: #071013;
+  font-family: 'Roboto Mono', monospace;
+  line-height: 1.2;
 }
 
-@media (max-width: 400px) {
+.headerLink:hover {
+  color: #F9F9F9;
+  text-decoration: underline;
+}
+
+.headerLink:active {
+  text-decoration: underline;
+}
+
+@media (max-width: 450px) {
   .headerMenu {
     background-color: #48e08f;
   }

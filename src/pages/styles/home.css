@@ -1,0 +1,9 @@
+main {
+    width: 100vw;
+}
+
+.titleContainer {
+    width: 15vw;
+    height: 20px;
+    margin: 0 auto;
+}
