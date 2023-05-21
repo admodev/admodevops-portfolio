@@ -2,8 +2,31 @@ main {
     width: 100vw;
 }
 
-.titleContainer {
+.panelsOuterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.panelsInnerContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 65%;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+}
+
+.panel {
     width: 15vw;
-    height: 20px;
-    margin: 0 auto;
+    height: max-content;
+    margin: 50px;
+    padding: 25px;
+    border: 2px solid #E8EBF7;
+    border-radius: 8px;
 }
