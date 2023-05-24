@@ -23,13 +23,13 @@ const HeaderComponent: React.FC = () => {
           <Link to="/" className="headerLink">
             Home
           </Link>
-          <Link to="/" className="headerLink">
+          <Link to="/projects" className="headerLink">
             Projects
           </Link>
-          <Link to="/" className="headerLink">
+          <Link to="/clients" className="headerLink">
             Clients
           </Link>
-          <Link to="/" className="headerLink">
+          <Link to="/contact" className="headerLink">
             Contact
           </Link>
         </div>
